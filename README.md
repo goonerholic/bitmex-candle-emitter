@@ -19,4 +19,18 @@ const client = candleEmitter({
   timeframe: 60 //(minute),
   testnet: false //(default false)
 })
+
+client.on('candle', candle => {
+  /*
+    candle = {
+      symbol,
+      timeframe,
+      open,
+      high,
+      low,
+      close,
+    }
+  */
+  console.log(candle)
+})
 ```
