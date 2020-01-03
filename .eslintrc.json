@@ -9,8 +9,8 @@
 		"SharedArrayBuffer": "readonly"
 	},
 	"parserOptions": {
-		"ecmaVersion": 2018,
-		"sourceType": "module"
+		"ecmaVersion": 6,
+		"sourceType": "script"
 	},
 	"rules": {
 		"no-unused-vars": "warn",

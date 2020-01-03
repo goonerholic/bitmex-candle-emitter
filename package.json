@@ -1,20 +1,37 @@
 {
 	"name": "bitmex-candle-emitter",
 	"version": "1.0.0",
+	"keywords": [
+		"bitmex"
+	],
 	"description": "Custom candle data emitter based on eventEmitter.",
 	"main": "index.js",
 	"author": "goonerholic",
+	"homepage": "https://github.com/goonerholic/bitmex-candle-emitter",
+	"bugs": {
+		"url": "https://github.com/goonerholic/bitmex-candle-emitter/issues",
+		"email": "goonerholic@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/goonerholic/bitmex-candle-emitter.git"
+	},
 	"license": "MIT",
-	"type": "module",
 	"scripts": {
 		"start:dev": "nodemon index.js --watch"
 	},
 	"dependencies": {
 		"cron": "^1.7.2",
-		"lodash": "^4.17.15",
 		"ws": "^7.2.1"
 	},
 	"devDependencies": {
+		"@babel/cli": "^7.7.7",
+		"@babel/core": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
 		"nodemon": "^2.0.2"
+	},
+	"engines": {
+		"node": ">=6.0.0",
+		"npm": "~6.10.3"
 	}
 }
